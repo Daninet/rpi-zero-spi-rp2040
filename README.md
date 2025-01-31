@@ -20,6 +20,9 @@ I wanted to communicate between a Raspberry Pi Zero 2W and an RP2040 microcontro
 - The master and slave are synchronized using the SPI Chip Select signal.
 - RP2040 uses DMA for the SPI transfers, so it's fast. There is also circular buffering for the RX and TX FIFOs.
 
+<img width="1505" alt="img" src="https://github.com/user-attachments/assets/3f2a5771-a778-44cc-9e9f-37fde1b700b9" />
+
+
 # Usage
 
 ```c
